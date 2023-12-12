@@ -1,0 +1,22 @@
+[technote]
+id = "SITCOMTN-102"
+series_id = "SITCOMTN"
+canonical_url = "https://sitcomtn-102.lsst.io"
+github_url = "https://github.com/lsst-sitcom/sitcomtn-102"
+github_default_branch = "main"
+date_created = 2023-12-12T14:03:04Z
+organization.name = "Vera C. Rubin Observatory"
+organization.ror = "https://ror.org/048g3cy84"
+
+[technote.status]
+state = "draft"
+
+[[technote.authors]]
+name.given = "Holger"
+name.family = "Drass"
+orcid = "https://orcid.org/0000-0002-7790-9971"
+internal_id = "drassh"
+[[technote.authors.affiliations]]
+name = "Rubin Observatory Project Office"
+internal_id = "RubinObs"
+address = "950 N. Cherry Ave., Tucson, AZ  85719, USA"
