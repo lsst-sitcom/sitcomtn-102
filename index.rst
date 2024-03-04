@@ -5,9 +5,7 @@ Technote Style and Writing Guide
 Abstract
 ========
 
-.. abstract::
-
-   Quick reference for writing SITCOM technotes. Each section in this technote is intended to
+Quick reference for writing SITCOM technotes. Each section in this technote is intended to
 reflect the actual suggested structure. It is advisable to maintain the main headers homogeneous
 across the technotes for which this is a sensible approach, and structure the report in subheaders
 as needed by the author. 
@@ -61,9 +59,7 @@ Some recommendations:
 * Make plots as self explanatory as possible, by the use of proper labels, titles, legend, overlaid text.
 * Use large fonts for text, label and title, where possible. 
 * Always add units to physical quantities
-* Avoid differentiating different data ranges with colors. Try to use different line and marker
-styles. If colors are needed, a recommendation is to upload your plots to
-`this page <https://www.color-blindness.com/coblis-color-blindness-simulator>`_
+* Avoid differentiating different data ranges with colors. Try to use different line and marker styles. If colors are needed, a recommendation is to upload your plots to `this page <https://www.color-blindness.com/coblis-color-blindness-simulator>`_
 
 
 Conclusions
