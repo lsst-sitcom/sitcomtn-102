@@ -16,6 +16,12 @@ name.given = "Holger"
 name.family = "Drass"
 orcid = "https://orcid.org/0000-0002-7790-9971"
 internal_id = "drassh"
+
+[[technote.authors]]
+name.given = "Nacho"
+name.family = "Sevilla"
+internal_id = "sevillai"
+
 [[technote.authors.affiliations]]
 name = "Rubin Observatory Project Office"
 internal_id = "RubinObs"
