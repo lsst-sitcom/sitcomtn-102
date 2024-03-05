@@ -9,7 +9,7 @@ Quick reference for writing SITCOM technotes. Each section in this technote is i
 
 Technote abstracts should include a short 2-3 sentence explanation of the goal of the technote. Ideally, it should also include a 1-2 sentence summary of the main conclusions.
 
-*Example: In this technote, we verify that the pointing accuracy of the system is compliant with the requirement of 5 arcsec RMS. We do this by analyzing star tracker data during a soak test mimicking real scheduled observations. Our conclusions are that the pointing performance is compliant with the requirement, except at low (<30 deg.) elevation measurements.* 
+*Example: We verify that the pointing accuracy of the system is compliant with the requirement of 5 arcsec RMS. We do this by analyzing star tracker data during a soak test mimicking real scheduled observations. Our conclusions are that the pointing performance is compliant with the requirement, except at low (<30 deg.) elevation measurements.* 
 
 *Example: We explore the problems found on 2024-02-01 on the azimuth drives to diagnose the issue. We study what TMA settings lead to the drives going to fault. Currently not correlation of velocity, acceleration, jerk or initial/final positions are found*.
 
@@ -21,7 +21,7 @@ This is a short reference to provide guidance and support for creating technotes
 
 The introduction should expand the details and context in which the technote is written, and why its goals are pursued. In the case of a very straightforward measurement, or self-exaplanatory, it could be merged with the abstract. Ideally these would be exceptions.
 
-*Example: Vibrations of the TMA stucture immediately after a slew can impact the image quality performance, if they prolong into the time in which data is collected. We need to measure the residual vibration of the TMA in various axes, and in identical conditions as in real observations. These tests should be combined with those that measure the jittering of other mechanical and optical systems in the light path for an overall assessment of the 
+*Example: Vibrations of the TMA structure immediately after a slew can impact the image quality performance, if they prolong into the time in which data is collected. We need to measure the residual vibration of the TMA in various axes, and in identical conditions as in real observations. These tests should be combined with those that measure the jittering of other mechanical and optical systems in the light path for an overall assessment of the 
 optical performance. The results in this technote should be regarded as preliminary because the final TMA settings have not been configured.*
 
 Related Tickets
@@ -29,9 +29,11 @@ Related Tickets
 
 A bulleted list of related tickets and their titles, including those issued to  writing the technote itself, those related to relevant code used to produce the results and any other Operations tickets that can help trace the problem. 
 
-*Example: 
-* `SITCOM-798 <https://jira.atlassian.net/browse/SITCOM-798>`_: M1M3 - settling time after a slew
-* `SITCOM-1172 <https://jira.atlassian.net/browse/SITCOM-1172>`_: M1M3 - analyze settling times after a slew statistically*
+*Example:*
+
+
+* *`SITCOM-798 <https://jira.atlassian.net/browse/SITCOM-798>`_: M1M3 - settling time after a slew*
+* *`SITCOM-1172 <https://jira.atlassian.net/browse/SITCOM-1172>`_: M1M3 - analyze settling times after a slew statistically*
 
 Related Requirements
 ====================
@@ -40,8 +42,9 @@ Related Requirements
 and title. The full description of the requirement could be added if it facilitates the
 interpretation of the results. 
 
-*Example:
-LTS-88-REQ-0051: The positioning system SHALL be able to meet all its requirements within 3 seconds of ending a short slew (3.5 degrees in 2 seconds)*
+*Example*:
+
+*LTS-88-REQ-0051: The positioning system SHALL be able to meet all its requirements within 3 seconds of ending a short slew (3.5 degrees in 2 seconds)*
 
 
 Execution Details and Data
