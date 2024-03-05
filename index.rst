@@ -32,8 +32,8 @@ A bulleted list of related tickets and their titles, including those issued to  
 *Example:*
 
 
-* *`SITCOM-798 <https://jira.atlassian.net/browse/SITCOM-798>`_: M1M3 - settling time after a slew*
-* *`SITCOM-1172 <https://jira.atlassian.net/browse/SITCOM-1172>`_: M1M3 - analyze settling times after a slew statistically*
+* `SITCOM-798 <https://jira.atlassian.net/browse/SITCOM-798>`_: *M1M3 - settling time after a slew*
+* `SITCOM-1172 <https://jira.atlassian.net/browse/SITCOM-1172>`_: *M1M3 - analyze settling times after a slew statistically*
 
 Related Requirements
 ====================
@@ -96,6 +96,10 @@ This section should not be too long to provide a quick 'single-glance' summary, 
 Related Documentation
 =====================
 Documentation references with links to other relevant technotes or Rubin documentation, including other technical bibliography such as papers, conference proceedings, where appropriate.
+
+*Example:*
+
+`LTS-88 <https://docushare.lsst.org/docushare/dsweb/Get/LTS-88/LTS-88.pdf>`_ *M1M3 Mirror Support Design Requirement Document*
 
 
 
