@@ -5,16 +5,33 @@ Technote Style and Writing Guide
 Abstract
 ========
 
-Quick reference for writing SITCOM technotes. Each section in this technote is intended to
-reflect the actual suggested structure. It is advisable to maintain the main headers homogeneous
-across technotes, and structure the report in subheaders as needed by the author. 
+Quick reference for writing SITCOM technotes. Each section in this technote is intended to reflect the actual suggested structure. It is advisable to maintain the main headers homogeneous across technotes, and structure the report in subheaders as needed by the author. 
 
 Technote abstracts should include a short 2-3 sentence explanation of the goal of the technote. Ideally, it should also include a 1-2 sentence summary of the main conclusions.
+
+*Example: In this technote, we verify that the pointing accuracy of the system is compliant with the requirement of 5 arcsec RMS. We do this by analyzing star tracker data during a soak test mimicking real scheduled observations. Our conclusions are that the pointing performance is compliant with the requirement, except at low (<30 deg.) elevation measurements.* 
+
+*Example: We explore the problems found on 2024-02-01 on the azimuth drives to diagnose the issue. We study what TMA settings lead to the drives going to fault. Currently not correlation of velocity, acceleration, jerk or initial/final positions are found*.
+
+
+Introduction
+============
+
+This is a short reference to provide guidance and support for creating technotes related to SITCOM activities. For details on how to start, configure and edit a technote, see the `Documenteer documentation <https://documenteer.lsst.io/technotes/index.html>`_. This includes adding yourself as author in the author database file, in case you are not there.
+
+The introduction should expand the details and context in which the technote is written, and why its goals are pursued. In the case of a very straightforward measurement, or self-exaplanatory, it could be merged with the abstract. Ideally these would be exceptions.
+
+*Example: Vibrations of the TMA stucture immediately after a slew can impact the image quality performance, if they prolong into the time in which data is collected. We need to measure the residual vibration of the TMA in various axes, and in identical conditions as in real observations. These tests should be combined with those that measure the jittering of other mechanical and optical systems in the light path for an overall assessment of the 
+optical performance. The results in this technote should be regarded as preliminary because the final TMA settings have not been configured.*
 
 Related Tickets
 ===============
 
-A bulleted list of related tickets and their titles, including those issued to  writing the technote itself and those related to relevant code used to produce the results.
+A bulleted list of related tickets and their titles, including those issued to  writing the technote itself, those related to relevant code used to produce the results and any other Operations tickets that can help trace the problem. 
+
+*Example: 
+* `SITCOM-798 <https://jira.atlassian.net/browse/SITCOM-798>`_: M1M3 - settling time after a slew
+* `SITCOM-1172 <https://jira.atlassian.net/browse/SITCOM-1172>`_: M1M3 - analyze settling times after a slew statistically*
 
 Related Requirements
 ====================
@@ -23,19 +40,14 @@ Related Requirements
 and title. The full description of the requirement could be added if it facilitates the
 interpretation of the results. 
 
-Introduction
-============
+*Example:
+LTS-88-REQ-0051: The positioning system SHALL be able to meet all its requirements within 3 seconds of ending a short slew (3.5 degrees in 2 seconds)*
 
-This is a short reference to provide guidance and support for creating technotes related to SITCOM
-activities. For details on how to start, configure and edit a technote, see the `Documenteer documentation <https://documenteer.lsst.io/technotes/index.html>`_. This includes adding yourself as author in the author database file, in case you are not there.
-
-The introduction should expand the details and context in which the technote is written, and why
-its goals are pursued. 
 
 Execution Details and Data
 ==========================
 
-Include scripts (with complete links to Github), data sets used, and date in which they were executed (this is often helpful). Possibly a short description of procedure and/or how the script was executed, in case it requires a configuration file or specific arguments. 
+Include scripts (with complete links to Github), data sets used (block number, source of data), and date in which they were executed (this is often helpful). Possibly a short description of procedure and/or how the script was executed, in case it requires a configuration file or specific arguments. The relevant test cases can be highlighted here as well. 
 
 Results and Discussion
 ======================
@@ -49,6 +61,8 @@ Use this kind of header and subheaders to organize the results and discussion.
 
 Tables
 ------
+Some recommendations:
+* Use bold face to differentiate header column names
 
 
 Plots
@@ -59,7 +73,9 @@ Some recommendations:
 * Use large fonts for text, label and title, where possible. 
 * Always add units to physical quantities.
 * Avoid differentiating data ranges with colors. Try to use different line and marker styles. If colors are needed, a recommendation is to upload your plots to `this page <https://www.color-blindness.com/coblis-color-blindness-simulator>`_
-
+* Include error bars
+* Highlight requirements or areas in which the viewer has to focus on
+* Where applicable provide histogrammed versions of the results and calculate a mean and RMS, or equivalently a Gaussian fit
 
 Conclusions
 ===========
@@ -72,29 +88,22 @@ they are describing.
 
 This section should not be too long to provide a quick 'single-glance' summary, that together with the abstract, would provide a complete sself contained information piece on the issue at hand.
 
+*Example: Using star tracker data from camera XX on the soak tests performed on observation day XXXX-YY-ZZ we have been able to verify requirement RRR, in mostly all azimuth-elevation combinations. However, in 60% of the cases were pointing was to an elevation below 30 degrees, the offset was beyond the requirement, reaching almost 8 arcseconds.*
+
 Related Documentation
 =====================
 Documentation references with links to other relevant technotes or Rubin documentation, including other technical bibliography such as papers, conference proceedings, where appropriate.
 
 
+
 Appendix
 ========
 
-Technote Style Guide
---------------------
-Text Parts
-^^^^^^^^^^
-Reasoning:
-Using the same structure in all technotes makes it easy to jump in to the needed information
-
-A document should be structured in the following parts
-
-- Introduction
-- Main Part
-- Summary and Conclusion
-
 Technote Writing Guide
 ----------------------
+
+Add a link to some style guidelines.
+
 Writing tempus
 ^^^^^^^^^^^^^^
 **Suggestion:**
@@ -120,9 +129,4 @@ Writing perspective
 **Reason:**
 
 **Example:**
-
-When to update a technote
-=========================
-
-
 
