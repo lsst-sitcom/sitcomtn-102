@@ -89,7 +89,7 @@ Some recommendations:
 * Highlight requirements or areas in which the viewer has to focus on
 * Where applicable provide histogrammed versions of the results and calculate a mean and RMS, or equivalently a Gaussian fit
 
-An example is shown in Figure :numref:`label` :
+An example is shown in :numref:`label` :
 
 .. _label:
 .. figure:: /_static/azel.png
