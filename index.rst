@@ -95,8 +95,8 @@ An example is shown in Figure :numref:`label` :
 .. figure:: /_static/azel.png
    :name: fig-azel
 
-    Distribution of slew events, including those that failed the test, in azimuth and elevation, for dayObs 
-    20232012.
+   Distribution of slew events, including those that failed the test, in azimuth and elevation, for dayObs 
+   20232012.
 
 Discussion
 ==========
