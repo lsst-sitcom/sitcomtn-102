@@ -129,6 +129,8 @@ Technote Writing Guide
 
 In order to start a technote, as well as some useful tips for using reStructured text, please refer to this :doc:`presentation </_static/2022-06-28_Documentation_Bootcamp.pdf2022-06-28_Documentation_Bootcamp.pdf>` by the Rubin documentation team. 
 
+A general guide for Rubin technotes can be found `here <https://technote.lsst.io/user-guide/index.html>`_.
+
 ReStructured text supports LaTeX-style math using the 'math' environment and inverted commas: \:math\:\`x^2+y^2=z^2\` will translate into :math:`x^2+y^2=z^2`.
 
 See `this reference <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ for the official reStructured text documentation.
