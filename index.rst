@@ -104,12 +104,9 @@ A detailed discussion could have its own section after the Results, but is not a
 
 Conclusions
 ===========
-Conclusions should include a clear cut status of the resolution of the goal the technote was designed
-to address. In case of requirement verification, this would include PASS/FAIL assessments for each.
+Conclusions should include a clear cut status of the resolution of the goal the technote was designed to address. In case of requirement verification, this would include PASS/FAIL assessments for each.
 
-If a clear resolution is not found at this time, it is advisable to add a path to said resolution
-or further testing, as sometimes technotes are only meant to provide a snapshot of the situation
-they are describing. 
+If a clear resolution is not found at this time, it is advisable to add a path to said resolution for further testing, as sometimes technotes are only meant to provide a snapshot of the situation they are describing. This would include links to new tickets that address these next steps that may already exist by the time of wrapping up the current technote. 
 
 This section should not be too long to provide a quick 'single-glance' summary, that together with the abstract, would provide a complete sself contained information piece on the issue at hand.
 
@@ -130,7 +127,9 @@ Appendix
 Technote Writing Guide
 ----------------------
 
-In order to start a technote, as well as some useful tips for using reStructured text, please refer to this `presentation <https://github.com/lsst-sitcom/sitcomtn-102/files/14638694/2020-10-14.Documentation.Ops.Bootcamp.pdf>`_ by the Rubin documentation team. ReStructured text supports LaTeX-style math using the 'math' environment and inverted commas: \:math\:\`x^2+y^2=z^2\` will translate into :math:`x^2+y^2=z^2`.
+In order to start a technote, as well as some useful tips for using reStructured text, please refer to this :doc:`presentation </_static/2022-06-28_Documentation_Bootcamp.pdf2022-06-28_Documentation_Bootcamp.pdf>` by the Rubin documentation team. 
+
+ReStructured text supports LaTeX-style math using the 'math' environment and inverted commas: \:math\:\`x^2+y^2=z^2\` will translate into :math:`x^2+y^2=z^2`.
 
 See `this reference <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ for the official reStructured text documentation.
 
